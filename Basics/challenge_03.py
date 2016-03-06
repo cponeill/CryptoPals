@@ -1,10 +1,14 @@
 x = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
 
+# fix the x to xs on line 5
+# add comments
 def score_plaintext(xs):
-	letters = filter(lambda x: 'a'<=x<='z' or 'A'<=x<='Z', xs)
+	'''add comments'''
+	letters = filter(lambda x: 'a'<=x<='z' or 'A'<=x<='Z', x)
 	return float(len(letters)) / len(xs)
 
 def get_max_single_char_xor(xs):
+	'''add comments'''
 	result = []
 	for i in range(256):
 		chrs = [chr(ord(xs) ^ i) for xs in x.decode('hex')]
