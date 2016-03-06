@@ -1,7 +1,6 @@
 x = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
 
-# fix the x to xs on line 5 <fixed>
-# add comments
+
 def score_plaintext(xs):
 	'''Finds the score'''
 	letters = filter(lambda x: 'a'<=x<='z' or 'A'<=x<='Z', xs)
