@@ -1,3 +1,7 @@
+"""
+Please add comments to code
+"""
+
 from challenge_03 import get_max_single_char_xor
 
 def xor_answer():
