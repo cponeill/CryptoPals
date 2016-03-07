@@ -1,4 +1,7 @@
 #! /usr/bin/env python
+"""
+Add comments to all files of code for better understanding.
+"""
 
 from binascii import a2b_base64
 from hamming_distance import normalized_hamming_distance
