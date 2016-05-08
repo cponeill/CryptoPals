@@ -1,8 +1,3 @@
-"""
-Add comments to understand code.
-"""
-
-
 from Crypto.Cipher import AES
 from binascii import a2b_base64
 
